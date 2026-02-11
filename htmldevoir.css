@@ -1,0 +1,154 @@
+
+
+body {
+    background-color: rgb(244, 241, 241);
+}
+
+
+header {
+     display: flex;                
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 20px 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px rgba(16, 16, 16, 0.05);
+    
+}
+nav a {
+    text-decoration: none;   
+    margin-left: 30px;      
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+nav  {
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    
+}
+
+
+.S1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.left {
+    max-width: 50%;
+}
+
+
+
+.bouttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1{
+    background: rgb(212, 0, 42);
+    color: white;
+    border: none;
+    padding: 15px ;
+    border-radius: 8px;
+}
+
+.btn2{
+    border: 2px solid rgb(212, 9, 50);
+    color: rgb(214, 9, 50);
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+
+
+.left {
+    max-width: 50%;
+}
+
+.right img {
+    width: 400px;
+    
+
+}
+
+.S2 {
+    padding: 80px;
+    background: #f4f1f1;
+    text-align: center;
+}
+
+.S2-header  {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.S2-carte {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.carte {
+    width: 320px;
+    padding: 40px;
+    border:1px solid red;
+    background: rgb(228, 218, 218);
+    
+}
+.s3header{
+     font-size: 40px;
+    margin-bottom: 20px;
+}
+.s3{
+    display: flex;
+
+align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+}
+.right {
+    width:50%;
+    height: 100%;
+    
+}
+.imgpr{
+    width:max-content;
+    height:300px;
+}
+.s4header{
+     font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.s4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.imgs4{
+     background: white;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+  
+
+}
+.bigfooter{
+    display:flex;
+    
+}
+.foot{
+    text-decoration: none;
+}
+
